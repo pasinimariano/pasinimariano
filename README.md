@@ -1,18 +1,28 @@
-### Hi there 👋
-
 ![banner](https://user-images.githubusercontent.com/67658710/134507544-9788538a-d336-4ae8-92d1-49e0c9645e05.png)
 
-<!--
-**pasinimariano/pasinimariano** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Hi, welcome to my git!👋
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```js
+export const Mariano = (yourBusiness) => {
+  if (yourBusiness.hiring === 'Looking for new dev') {
+  return {
+    Skills: {
+        BackEnd: [
+            {JavaScript: ['NodeJs', 'Express', 'Sequelize']},
+            {Python: ['Tkinter', 'SQLAlchemy']}
+          ],
+        FrontEnd: [
+            {JavaScript: ['React', 'React-Native', 'Redux', 'CSS', 'HTML', 'Bootstrap', 'Material-ui']}
+          ]
+      },
+    Proyects: [
+        {NoilanApp: ['React', 'Redux', 'NodeJs', 'Express', 'Sequelize']},
+        {PokemonApp: ['React', 'Redux', 'NodeJs', 'Express', 'Sequelize']},
+        {WeatherApp: ['React', 'Redux']},
+        {WhampComics: ['React']}
+      ],
+    FutureTecnologies: ['Java', 'Angular']
+    }
+  }
+}
+```
