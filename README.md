@@ -9,7 +9,7 @@ export const Mariano = (yourBusiness) => {
     Skills: {
         BackEnd: [
             {JavaScript: ['NodeJs', 'Express', 'Sequelize']},
-            {Python: ['Tkinter', 'SQLAlchemy']}
+            {Python: ['Tkinter', 'SQLAlchemy', 'Flask']}
           ],
         FrontEnd: [
             {JavaScript: ['React', 'React-Native', 'Redux', 'CSS', 'HTML', 'Bootstrap', 'Material-ui']}
@@ -21,7 +21,6 @@ export const Mariano = (yourBusiness) => {
         {WeatherApp: ['React', 'Redux']},
         {WhampComics: ['React']}
       ],
-    FutureTecnologies: ['Java', 'Angular']
     }
   }
 }
